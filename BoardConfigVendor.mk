@@ -12,3 +12,5 @@ AB_OTA_PARTITIONS += \
     modem \
     pbl \
     tzsw
+
+TARGET_BOARD_INFO_FILE := vendor/google/oriole/android-info.txt

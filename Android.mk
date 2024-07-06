@@ -16,4 +16,8 @@ $(call add-radio-file-sha1-checked,radio/modem.img,4c40d1398e905d8787b66f9437eb5
 $(call add-radio-file-sha1-checked,radio/pbl.img,88745c74e22c6ee97ee26d1fe695e769a4be3fb0)
 $(call add-radio-file-sha1-checked,radio/tzsw.img,e8b0200fb4990508e5170c55d82e1c09c759e732)
 
+
+$(call add-radio-file,factory/bootloader-oriole-slider-14.5-11677881.img,version-bootloader)
+$(call add-radio-file,factory/radio-oriole-g5123b-135085-240517-b-11857288.img,version-baseband)
+
 endif
